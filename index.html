@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Registration</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="logo" class="container">
+	<h1><a href="#">FORM EXERCISE</a></h1>
+</div>
+
+<div id="page" class="container">
+	<div id="box1">
+		<h2 class="title"><a href="#">Member Registration Form</a></h2>
+		<div style="clear: both;">&nbsp;</div>
+		<div class="entry">
+			<p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+			
+		</div>
+	</div>
+    
+	<div id="box2">
+   <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+   		
+	<form id="form1" method="post" action="">
+	  <table width="484" border="0">
+        <tr>
+          <td width="94"><strong>Fullname</strong></td>
+          <td width="12"><strong>:</strong></td>
+          <td width="364"><label>
+            <input name="textfield" type="text" placeholder="Please insert Fullname" />
+          </label></td>
+        </tr>
+        <tr>
+          <td><strong>Username*</strong></td>
+          <td><strong>:</strong></td>
+          <td><label>
+            <input type="text" name="textfield2" placeholder="Please insert Username"/>
+          </label></td>
+        </tr>
+        <tr>
+          <td><strong>Password*</strong></td>
+          <td><strong>:</strong></td>
+          <td><label>
+            <input type="password" name="textfield3" placeholder="Please insert Password"/>
+          </label></td>
+        </tr>
+        <tr>
+          <td><strong>Email*</strong></td>
+          <td><strong>:</strong></td>
+          <td><label>
+            <input type="text" name="textfield4"  placeholder="Please insert Email Address"/>
+          </label></td>
+        </tr>
+        <tr>
+          <td><strong>Gender</strong></td>
+          <td><strong>:</strong></td>
+          <td><label>
+            <input name="radiobutton" type="radio" value="radiobutton" />
+          Male 
+          <input name="radiobutton" type="radio" value="radiobutton" />
+          Female</label></td>
+        </tr>
+        <tr>
+          <td><strong>Birth Date </strong></td>
+          <td><strong>:</strong></td>
+          <td><label>
+            <select name="select">
+              <option>-Day-</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <select name="select2">
+              <option>-Month-</option>
+              <option value="januari">Januari</option>
+              <option value="febuari">Febuari</option>
+              <option value="maret">Maret</option>
+                                                                                                                                    </select>
+            <select name="select3">
+              <option>-Year-</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+                                    </select>
+</label></td>
+        </tr>
+        <tr>
+          <td><strong>Hoby</strong></td>
+          <td><strong>:</strong></td>
+          <td><label>
+            <input type="checkbox" name="checkbox" value="checkbox" />
+            Sports 
+            <input type="checkbox" name="checkbox2" value="checkbox" />
+            Travel
+            <input type="checkbox" name="checkbox3" value="checkbox" />
+            Culture<br />
+            <input type="checkbox" name="checkbox4" value="checkbox" />
+            Culinary
+            <input type="checkbox" name="checkbox5" value="checkbox" />
+Shopping 
+<input type="checkbox" name="checkbox6" value="checkbox" />
+Praying
+          </label></td>
+        </tr>
+        <tr>
+          <td height="49"><strong>Address</strong></td>
+          <td><strong>:</strong></td>
+          <td><label>
+            <textarea name="textarea" placeholder="Please insert Address"></textarea>
+          </label></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td><label>
+            <input type="submit" name="Submit" value="Submit" />
+			&nbsp;&nbsp;&nbsp;
+            <input type="reset" name="Submit2" value="Reset" />
+          </label></td>
+        </tr>
+      </table>
+	
+    </form>
+	</div>
+    
+    
+    
+</div>
+<div id="footer" class="container">
+	<p>Copyright &copy; 2019 Ayu afidarisa rahma </p>
+</div>
+</body>
+</html>
